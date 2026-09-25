@@ -1,0 +1,45 @@
+# Unity text-based assets remain diffable
+*.meta text
+*.asset text
+*.controller text
+*.anim text
+*.mat text
+*.prefab text
+*.unity text
+*.shader text
+*.compute text
+*.uxml text
+*.uss text
+*.asmdef text
+*.json text
+*.txt text
+*.xml text
+*.csv text
+*.cs text diff=csharp
+
+# Binary Unity assets — never treat as text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.psb binary
+*.fbx binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.tif binary
+*.tiff binary
+*.exr binary
+*.ttf binary
+*.otf binary
+*.dll binary
+*.so binary
+*.zip binary
+
+# Line-ending normalization for text files
+*.cs text eol=lf
+*.json text eol=lf
+*.meta text eol=lf
